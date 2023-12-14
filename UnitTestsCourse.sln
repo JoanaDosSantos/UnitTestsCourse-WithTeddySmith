@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsCourse_NoFramework", "UnitTestsCourse\UnitTestsCourse_NoFramework.csproj", "{787B31E6-E44F-49BD-8A99-0A43B27F6303}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility_XUnit_FluentAssertions", "NetworkUtility\NetworkUtility_XUnit_FluentAssertions.csproj", "{AC610A86-F437-45B5-BACC-A06BEE84DA1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility_XUnit_FluentAssertions.Tests", "NetworkUtility.Tests\NetworkUtility_XUnit_FluentAssertions.Tests.csproj", "{3C2E4FCB-1A8F-4A41-983E-A0A1AB90D08D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{787B31E6-E44F-49BD-8A99-0A43B27F6303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787B31E6-E44F-49BD-8A99-0A43B27F6303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{787B31E6-E44F-49BD-8A99-0A43B27F6303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC610A86-F437-45B5-BACC-A06BEE84DA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC610A86-F437-45B5-BACC-A06BEE84DA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC610A86-F437-45B5-BACC-A06BEE84DA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC610A86-F437-45B5-BACC-A06BEE84DA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2E4FCB-1A8F-4A41-983E-A0A1AB90D08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2E4FCB-1A8F-4A41-983E-A0A1AB90D08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2E4FCB-1A8F-4A41-983E-A0A1AB90D08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2E4FCB-1A8F-4A41-983E-A0A1AB90D08D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
