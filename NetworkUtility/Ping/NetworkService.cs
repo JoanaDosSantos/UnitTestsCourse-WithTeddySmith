@@ -1,14 +1,30 @@
-﻿using System.Net.NetworkInformation;
+﻿using NetworkUtility_XUnit_FluentAssertions.DNS;
+using System.Net.NetworkInformation;
 
 namespace NetworkUtility.Ping
 {
     public class NetworkService
     {
+        #region Constructor
+        public IDNS _dNS { get; }
+
+        public NetworkService(IDNS dNS)
+        {
+            _dNS = dNS;
+        }
+        #endregion
+
         public string SendPing()
         {
-            //SerchDNS();
-            //BuildPacket();
-            return "Success: Ping Sent";
+            var dnsSuccess = _dNS.SendDNS();
+            if (dnsSuccess)
+            {
+                return "Success: Ping Sent";
+            }
+            else
+            {
+                return "Failed: Ping not sent";
+            }
         }
 
         public int PingTimeout(int a, int b)
@@ -21,7 +37,7 @@ namespace NetworkUtility.Ping
             return DateTime.Now;
         }
 
-        public PingOptions GetPingOptions() 
+        public PingOptions GetPingOptions()
         {
             return new PingOptions()
             {
@@ -52,6 +68,6 @@ namespace NetworkUtility.Ping
             };
             return pingOptions;
         }
-        
+
     }
 }
