@@ -11,7 +11,6 @@ For this part, the last class, the fourth one, was the one I was most interested
 
 This course has 8 chapters, but in order to maintain order on the repository, I've decided to separate it into two parts, simply because in the fifth class we use a whole project to test, and I already have 3 here.
 
-If you want to see the second part, here's the link:
-
+If you want to see the second part, here's the link of the <a href="https://github.com/JoanaDosSantos/UnitTestsCourse-WithTeddySmith-Part2">second part.
 
 Thanks, Joana :D
